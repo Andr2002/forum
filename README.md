@@ -1,5 +1,6 @@
-## папку node-modules не стал загружать
-## Использованные технологии:
-### node.js
-### body-parser
-### mysql
+
+# Использованные технологии:
+## node.js
+## body-parser
+## mysql
+Папку node_modules не стал заргужать
