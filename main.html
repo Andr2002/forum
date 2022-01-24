@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORUM</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h2>Forum</h2>
+        <a href="#" class="user-link">user</a>
+        <!-- ссылка на страницу пользователя -->
+    </header>
+
+    <main>
+        <p class="create-theme">Создать тему</p>
+
+        <div class="theme">
+            <div><textarea name="" id="theme-header" placeholder=" Заголовок темы"></textarea></div>
+            <div><textarea name="" id="theme-txt" placeholder=" Введите сообщение"></textarea></div>
+            <div class="answer">Ответить</div>
+        </div>
+
+        <div class="ready-theme">
+            <p class="ready-theme-header"></p>
+            <p class="ready-theme-txt"></p>
+            <div class="answer" id="ready-theme-answer">Ответить</div>
+            <textarea class="ready-theme-textarea"></textarea>
+            <div class="answer" id="ready-theme-answer-2">Ответить</div>
+            <div class="user-answer">
+                <p>Ответ от: <span>user</span></p>
+                <p class="user-answer-txt"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Copyright © 2022</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Forum</h2>
+    <form action="database.js" method="post">
+        <p class="title">Вход</p>
+
+        <div class="box">
+            <p>Логин</p>
+            <input type="text" name="login" id="login" placeholder="Введите логин">
+        </div>
+
+        <div class="box">
+            <p>Пароль</p>
+            <input type="password" name="password" id="password" placeholder="Введите пароль">
+        </div>
+
+        <input type="button" value="Войти" id="sign-btn" class="login-btn">
+        <p class="last-text">У вас ещё нет аккаунта?</p>
+        <a href="log-in.html" class="last-link">Зарегистрироваться</a>
+    </form>
+
+    <script src="sign-in.js"></script>
+    <script src="database.js"></script>
+</body>
+
+</html>

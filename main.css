@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: 'Lora', serif;
+}
+
+header {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    display: block;
+    color: white;
+    margin-top: 15px;
+    /* margin-left: 30px; */
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.user-link {
+    display: block;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 38, 0);
+    /* border: 2px solid white; */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 4px;
+    margin-top: 30px;
+    /* margin-right: 50px; */
+    font-weight: bold;
+    transition: all .4s;
+    letter-spacing: 2px;
+}
+
+.user-link:hover {
+    background-color: #fff;
+    color: black;
+    /* border: 2px solid red; */
+    transition: all .4s;
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+    height: 480px;
+    color: white;
+    font-size: 14pt;
+}
+
+main p {
+    margin-left: 10px;
+}
+
+main a {
+    color: white;
+    font-size: 14pt;
+}
+
+main a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+}
+
+main div div {
+    margin: 20px 0;
+}
+
+.theme {
+    display: none;
+}
+
+.ready-theme {
+    display: none;
+    margin: auto;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    word-wrap: break-word;
+    /* word-wrap: break-word - чтобы текст не уходил за пределы блока */
+}
+
+.ready-theme-header {
+    margin: 15px 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ready-theme-txt {
+    margin: 15px 15px;
+    font-size: 1em;
+}
+
+#ready-theme-answer {
+    margin: 15px 15px 10px 420px;
+}
+
+.ready-theme-textarea {
+    display: none;
+    word-wrap: break-word;
+    resize: none;
+    width: 580px;
+    height: 90px;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+#ready-theme-answer-2 {
+    display: none;
+    margin: 20px auto 10px;
+}
+
+.user-answer {
+    display: none;
+}
+
+.create-theme {
+    margin: 0;
+    display: block;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 38, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 3px;
+    font-weight: bold;
+    transition: all .4s;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.create-theme:hover {
+    background-color: #fff;
+    color: black;
+    /* border: 2px solid red; */
+    transition: all .4s;
+}
+
+#theme-txt {
+    resize: none;
+    height: 150px;
+    width: 1000px;
+    font-family: inherit;
+    font-size: 15pt;
+    margin: 0;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#theme-header {
+    resize: none;
+    width: 500px;
+    height: 80px;
+    font-family: inherit;
+    font-size: 1.5em;
+    line-height: inherit;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.answer {
+    margin: 0;
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 38, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 3px;
+    font-weight: bold;
+    transition: all .4s;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.answer:hover {
+    background-color: #fff;
+    color: black;
+    /* border: 2px solid red; */
+    transition: all .4s;
+}
+
+hr {
+    margin: -30px auto 10px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid white;
+    box-shadow: 0 20px 20px -20px #fff;
+    width: 1300px;
+}
+
+footer {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
